@@ -1,6 +1,9 @@
 import java.io.*;
 
 /**
+ * This class demonstrates how the singleton property is broken with deserialization,
+ * when using private constructors based methods.
+ *
  * @author Dulaj Atapattu
  */
 public class SerializeDemo implements Serializable {
@@ -9,7 +12,7 @@ public class SerializeDemo implements Serializable {
         Singleton singleton = Singleton.INSTANCE;
         singleton.setValue(1);
 
-        // Serialize
+        // Serialize the singleton with value = 1
         try {
             FileOutputStream fileOut = new FileOutputStream("out.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
@@ -20,9 +23,9 @@ public class SerializeDemo implements Serializable {
             e.printStackTrace();
         }
 
-        singleton.setValue(2);
+        singleton.setValue(2); // Change the value of the singleton in memory to 2
 
-        // Deserialize
+        // Deserialize the serialized singleton with value 1
         Singleton singleton2 = null;
         try {
             FileInputStream fileIn = new FileInputStream("out.ser");

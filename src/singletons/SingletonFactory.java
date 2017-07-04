@@ -1,6 +1,9 @@
 package singletons;
 
 /**
+ * Singleton with static factory method.
+ * Not safe with deserialization.
+ *
  * @author Dulaj Atapattu
  */
 public class SingletonFactory {

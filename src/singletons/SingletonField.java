@@ -1,6 +1,9 @@
 package singletons;
 
 /**
+ * Singleton with public static final field.
+ * Not safe with deserialization.
+ *
  * @author Dulaj Atapattu
  */
 public class SingletonField {

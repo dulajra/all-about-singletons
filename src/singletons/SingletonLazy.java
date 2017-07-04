@@ -1,6 +1,9 @@
 package singletons;
 
 /**
+ * Thread safe singleton with lazy initialization.
+ * Not safe with deserialization.
+ *
  * @author Dulaj Atapattu
  */
 public class SingletonLazy {

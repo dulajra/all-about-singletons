@@ -1,4 +1,7 @@
 /**
+ * Copy of {@link singletons.SingletonEnum} class with field variables
+ * for demonstration purposes.
+ *
  * @author Dulaj Atapattu
  */
 public enum SingletonEnum {

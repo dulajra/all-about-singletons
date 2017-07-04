@@ -1,4 +1,6 @@
 /**
+ * This class provides an demonstration of how to use singletons with enums.
+ *
  * @author Dulaj Atapattu
  */
 public class EnumDemo {

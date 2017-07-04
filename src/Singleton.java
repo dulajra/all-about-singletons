@@ -1,6 +1,9 @@
 import java.io.Serializable;
 
 /**
+ * Copy of {@link singletons.SingletonField} class with field variables
+ * for demonstration purposes.
+ *
  * @author Dulaj Atapattu
  */
 public class Singleton implements Serializable{
