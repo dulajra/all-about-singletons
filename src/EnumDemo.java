@@ -1,5 +1,5 @@
 /**
- * This class provides an demonstration of how to use singletons with enums.
+ * This class provides a demonstration of how to use singletons with enums.
  *
  * @author Dulaj Atapattu
  */
