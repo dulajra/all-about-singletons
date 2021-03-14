@@ -1,5 +1,6 @@
 # all-about-singletons
-This repository demonstrates all main patterns which can be used to create singletons in Java. A more detailed explanation can be found at [http://blog.dulaj.info/2017/07/java-singletons-using-enum-type-best.html](blog.dulaj.info).
+This repository demonstrates all main patterns which can be used to create singletons in Java. A more detailed explanation can be found at
+<https://dzone.com/articles/java-singletons-using-enum> or <http://blog.dulaj.info/2017/07/java-singletons-using-enum-type-best.html>.
 
 ## Singleton patterns implemented
 * Singleton with public static final field
